@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77255EEF09EC174813CE5B08 /* Pods_JakeSnap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE6178D776BE134270EDC96 /* Pods_JakeSnap.framework */; };
 		C636A4711EAAA08A00FF7870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636A4701EAAA08A00FF7870 /* AppDelegate.swift */; };
-		C636A4731EAAA08B00FF7870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636A4721EAAA08B00FF7870 /* ViewController.swift */; };
 		C636A4761EAAA08B00FF7870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C636A4741EAAA08B00FF7870 /* Main.storyboard */; };
 		C636A4791EAAA08B00FF7870 /* JakeSnap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C636A4771EAAA08B00FF7870 /* JakeSnap.xcdatamodeld */; };
 		C636A47B1EAAA08B00FF7870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C636A47A1EAAA08B00FF7870 /* Assets.xcassets */; };
 		C636A47E1EAAA08B00FF7870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C636A47C1EAAA08B00FF7870 /* LaunchScreen.storyboard */; };
+		C636A4861EABDE6800FF7870 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C636A4851EABDE6800FF7870 /* GoogleService-Info.plist */; };
+		C636A4881EAC35F800FF7870 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636A4871EAC35F800FF7870 /* LoginViewController.swift */; };
+		C636A48A1EAC421200FF7870 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636A4891EAC421200FF7870 /* SnapsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BD5A07AC6CFF0A18FCE6645 /* Pods-JakeSnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakeSnap.release.xcconfig"; path = "Pods/Target Support Files/Pods-JakeSnap/Pods-JakeSnap.release.xcconfig"; sourceTree = "<group>"; };
+		4FE6178D776BE134270EDC96 /* Pods_JakeSnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JakeSnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C636A46D1EAAA08A00FF7870 /* JakeSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JakeSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C636A4701EAAA08A00FF7870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C636A4721EAAA08B00FF7870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C636A4751EAAA08B00FF7870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C636A4781EAAA08B00FF7870 /* JakeSnap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JakeSnap.xcdatamodel; sourceTree = "<group>"; };
 		C636A47A1EAAA08B00FF7870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C636A47D1EAAA08B00FF7870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C636A47F1EAAA08B00FF7870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C636A4851EABDE6800FF7870 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C636A4871EAC35F800FF7870 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C636A4891EAC421200FF7870 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		E00028CE12F7E4BB7BFBEDA4 /* Pods-JakeSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakeSnap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JakeSnap/Pods-JakeSnap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77255EEF09EC174813CE5B08 /* Pods_JakeSnap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CEFE4E684DDD91D7D79F7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FE6178D776BE134270EDC96 /* Pods_JakeSnap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADD552734667954133421D88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E00028CE12F7E4BB7BFBEDA4 /* Pods-JakeSnap.debug.xcconfig */,
+				0BD5A07AC6CFF0A18FCE6645 /* Pods-JakeSnap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C636A4641EAAA08A00FF7870 = {
 			isa = PBXGroup;
 			children = (
 				C636A46F1EAAA08A00FF7870 /* JakeSnap */,
 				C636A46E1EAAA08A00FF7870 /* Products */,
+				ADD552734667954133421D88 /* Pods */,
+				8CEFE4E684DDD91D7D79F7D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +85,14 @@
 			isa = PBXGroup;
 			children = (
 				C636A4701EAAA08A00FF7870 /* AppDelegate.swift */,
-				C636A4721EAAA08B00FF7870 /* ViewController.swift */,
+				C636A4871EAC35F800FF7870 /* LoginViewController.swift */,
+				C636A4891EAC421200FF7870 /* SnapsViewController.swift */,
 				C636A4741EAAA08B00FF7870 /* Main.storyboard */,
 				C636A47A1EAAA08B00FF7870 /* Assets.xcassets */,
 				C636A47C1EAAA08B00FF7870 /* LaunchScreen.storyboard */,
 				C636A47F1EAAA08B00FF7870 /* Info.plist */,
 				C636A4771EAAA08B00FF7870 /* JakeSnap.xcdatamodeld */,
+				C636A4851EABDE6800FF7870 /* GoogleService-Info.plist */,
 			);
 			path = JakeSnap;
 			sourceTree = "<group>";
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C636A4821EAAA08B00FF7870 /* Build configuration list for PBXNativeTarget "JakeSnap" */;
 			buildPhases = (
+				5EFA6DDA88082394E232F2E8 /* [CP] Check Pods Manifest.lock */,
 				C636A4691EAAA08A00FF7870 /* Sources */,
 				C636A46A1EAAA08A00FF7870 /* Frameworks */,
 				C636A46B1EAAA08A00FF7870 /* Resources */,
+				6992C2AB8F07F0AFD1C60E21 /* [CP] Embed Pods Frameworks */,
+				9B1D58862EEDCA96DE00B405 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C636A47E1EAAA08B00FF7870 /* LaunchScreen.storyboard in Resources */,
+				C636A4861EABDE6800FF7870 /* GoogleService-Info.plist in Resources */,
 				C636A47B1EAAA08B00FF7870 /* Assets.xcassets in Resources */,
 				C636A4761EAAA08B00FF7870 /* Main.storyboard in Resources */,
 			);
@@ -134,12 +168,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EFA6DDA88082394E232F2E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6992C2AB8F07F0AFD1C60E21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JakeSnap/Pods-JakeSnap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B1D58862EEDCA96DE00B405 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JakeSnap/Pods-JakeSnap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C636A4691EAAA08A00FF7870 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C636A4731EAAA08B00FF7870 /* ViewController.swift in Sources */,
+				C636A48A1EAC421200FF7870 /* SnapsViewController.swift in Sources */,
+				C636A4881EAC35F800FF7870 /* LoginViewController.swift in Sources */,
 				C636A4791EAAA08B00FF7870 /* JakeSnap.xcdatamodeld in Sources */,
 				C636A4711EAAA08A00FF7870 /* AppDelegate.swift in Sources */,
 			);
@@ -262,6 +345,7 @@
 		};
 		C636A4831EAAA08B00FF7870 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00028CE12F7E4BB7BFBEDA4 /* Pods-JakeSnap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JakeSnap/Info.plist;
@@ -274,6 +358,7 @@
 		};
 		C636A4841EAAA08B00FF7870 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD5A07AC6CFF0A18FCE6645 /* Pods-JakeSnap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JakeSnap/Info.plist;
@@ -303,6 +388,7 @@
 				C636A4841EAAA08B00FF7870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
