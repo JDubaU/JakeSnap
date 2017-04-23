@@ -5,6 +5,10 @@
 //  Created by Jake Wojtas on 4/22/17.
 //  Copyright © 2017 Jake Wojtas. All rights reserved.
 //
+/* TO DO LIST
+ - Display message if user account has not been created yet
+ - Display message if wrong username or password
+*/
 
 import UIKit
 import Firebase
@@ -39,12 +43,15 @@ class LoginViewController: UIViewController {
                     if error != nil {
                         print("Error during user creation :\(error)")
                     } else {
-                        
+                        let alert = UIAlertController(title: "Sign Up", message: "It seems that you do not have an account registered under this email. Please press the Sign Up Button to create an account", preferredStyle: UIAlertControllerStyle.alert)
+                        alert.addAction(UIAlertAction(title: "Sign Up", style: UIAlertActionStyle.default, handler: nil))
+                        self.present(alert, animated: true, completion: nil)
                     }
                 })
             } else {
                 print("Sign in successful")
                 self.performSegue(withIdentifier: "signInSegue", sender: nil)
+                
             }
         })
     }
