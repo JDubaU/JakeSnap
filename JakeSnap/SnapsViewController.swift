@@ -10,7 +10,9 @@ import UIKit
 
 class SnapsViewController: UIViewController {
 
+    
     @IBOutlet weak var logOutBarButton: UIBarButtonItem!
+    @IBOutlet weak var addButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +26,18 @@ class SnapsViewController: UIViewController {
     }
     
     @IBAction func logOutBarButton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        logOutBarButton.title = "Testing"
+        performSegue(withIdentifier: "logOutSegue", sender: nil)
+        //dismiss(animated: true, completion: nil)
+    
     }
+    
+    @IBAction func addButton(_ sender: Any) {
+        performSegue(withIdentifier: "addSnapSegue", sender: nil)
+    }
+    
+    
+   
     
 
 }

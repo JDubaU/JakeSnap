@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		77255EEF09EC174813CE5B08 /* Pods_JakeSnap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE6178D776BE134270EDC96 /* Pods_JakeSnap.framework */; };
 		C636A4711EAAA08A00FF7870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636A4701EAAA08A00FF7870 /* AppDelegate.swift */; };
-		C636A4761EAAA08B00FF7870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C636A4741EAAA08B00FF7870 /* Main.storyboard */; };
 		C636A4791EAAA08B00FF7870 /* JakeSnap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C636A4771EAAA08B00FF7870 /* JakeSnap.xcdatamodeld */; };
 		C636A47B1EAAA08B00FF7870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C636A47A1EAAA08B00FF7870 /* Assets.xcassets */; };
 		C636A47E1EAAA08B00FF7870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C636A47C1EAAA08B00FF7870 /* LaunchScreen.storyboard */; };
 		C636A4861EABDE6800FF7870 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C636A4851EABDE6800FF7870 /* GoogleService-Info.plist */; };
 		C636A4881EAC35F800FF7870 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636A4871EAC35F800FF7870 /* LoginViewController.swift */; };
 		C636A48A1EAC421200FF7870 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636A4891EAC421200FF7870 /* SnapsViewController.swift */; };
+		C636A48C1EAD461500FF7870 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636A48B1EAD461500FF7870 /* SignUpViewController.swift */; };
+		C636A48E1EAE548300FF7870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C636A48D1EAE548300FF7870 /* Main.storyboard */; };
+		C636A4901EB0F42200FF7870 /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636A48F1EB0F42200FF7870 /* TakePhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +25,6 @@
 		4FE6178D776BE134270EDC96 /* Pods_JakeSnap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JakeSnap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C636A46D1EAAA08A00FF7870 /* JakeSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JakeSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C636A4701EAAA08A00FF7870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C636A4751EAAA08B00FF7870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C636A4781EAAA08B00FF7870 /* JakeSnap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JakeSnap.xcdatamodel; sourceTree = "<group>"; };
 		C636A47A1EAAA08B00FF7870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C636A47D1EAAA08B00FF7870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,6 +32,9 @@
 		C636A4851EABDE6800FF7870 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C636A4871EAC35F800FF7870 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C636A4891EAC421200FF7870 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		C636A48B1EAD461500FF7870 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C636A48D1EAE548300FF7870 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C636A48F1EB0F42200FF7870 /* TakePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
 		E00028CE12F7E4BB7BFBEDA4 /* Pods-JakeSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakeSnap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JakeSnap/Pods-JakeSnap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,8 +90,10 @@
 			children = (
 				C636A4701EAAA08A00FF7870 /* AppDelegate.swift */,
 				C636A4871EAC35F800FF7870 /* LoginViewController.swift */,
+				C636A48B1EAD461500FF7870 /* SignUpViewController.swift */,
 				C636A4891EAC421200FF7870 /* SnapsViewController.swift */,
-				C636A4741EAAA08B00FF7870 /* Main.storyboard */,
+				C636A48F1EB0F42200FF7870 /* TakePhotoViewController.swift */,
+				C636A48D1EAE548300FF7870 /* Main.storyboard */,
 				C636A47A1EAAA08B00FF7870 /* Assets.xcassets */,
 				C636A47C1EAAA08B00FF7870 /* LaunchScreen.storyboard */,
 				C636A47F1EAAA08B00FF7870 /* Info.plist */,
@@ -132,6 +138,7 @@
 				TargetAttributes = {
 					C636A46C1EAAA08A00FF7870 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9AQ7Y8EQ49;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -162,7 +169,7 @@
 				C636A47E1EAAA08B00FF7870 /* LaunchScreen.storyboard in Resources */,
 				C636A4861EABDE6800FF7870 /* GoogleService-Info.plist in Resources */,
 				C636A47B1EAAA08B00FF7870 /* Assets.xcassets in Resources */,
-				C636A4761EAAA08B00FF7870 /* Main.storyboard in Resources */,
+				C636A48E1EAE548300FF7870 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,20 +232,14 @@
 				C636A4881EAC35F800FF7870 /* LoginViewController.swift in Sources */,
 				C636A4791EAAA08B00FF7870 /* JakeSnap.xcdatamodeld in Sources */,
 				C636A4711EAAA08A00FF7870 /* AppDelegate.swift in Sources */,
+				C636A4901EB0F42200FF7870 /* TakePhotoViewController.swift in Sources */,
+				C636A48C1EAD461500FF7870 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C636A4741EAAA08B00FF7870 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C636A4751EAAA08B00FF7870 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C636A47C1EAAA08B00FF7870 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +349,7 @@
 			baseConfigurationReference = E00028CE12F7E4BB7BFBEDA4 /* Pods-JakeSnap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AQ7Y8EQ49;
 				INFOPLIST_FILE = JakeSnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.udemy.JakeSnap;
@@ -361,6 +363,7 @@
 			baseConfigurationReference = 0BD5A07AC6CFF0A18FCE6645 /* Pods-JakeSnap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9AQ7Y8EQ49;
 				INFOPLIST_FILE = JakeSnap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.udemy.JakeSnap;
